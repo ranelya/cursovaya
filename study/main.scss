@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  .cardsWrap {
+    margin-top: 30px;
+    width: 100%;
+    background: #fafafa;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    
+    .cards {
+      padding-top: 50px;
+      margin: 0 auto;
+      width: 1000px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      .firstCard {
+        display: flex;
+        width: 230px;
+        padding: 35px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #fff;
+        gap: 20px;
+        transition: all 0.2s ease-in-out;
+        button {
+          display: flex;
+          padding: 10px 30px;
+          align-items: center;
+          gap: 10px;
+          border-radius: 37px;
+          border: 1px solid var(--secondary-color-1, #0d5c63);
+          color: var(--secondary-color-1, #0d5c63);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 200% */
+          letter-spacing: 0.2px;
+          transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+        }
+        .span_two {
+          color: var(--second-text-color, #737373);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+        &:hover {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1); /* применяем тень при hover */
+        }
+      }
+      .secondCard {
+        display: flex;
+        width: 230px;
+        padding: 35px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #fff;
+        gap: 26px;
+        transition: all 0.2s ease-in-out;
+        button {
+          display: flex;
+          padding: 10px 30px;
+          align-items: center;
+          gap: 10px;
+          border-radius: 37px;
+          border: 1px solid var(--secondary-color-1, #0d5c63);
+          color: var(--secondary-color-1, #0d5c63);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 200% */
+          letter-spacing: 0.2px;
+          transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+        }
+        .span_two {
+          color: var(--second-text-color, #737373);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+        &:hover {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1); /* применяем тень при hover */
+        }
+      }
+      .LastCard {
+        display: flex;
+        width: 230px;
+        padding: 35px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        background: var(--dark-background-color, #252b42);
+        gap: 20px;
+        transition: all 0.2s ease-in-out;
+        button {
+          display: flex;
+          padding: 10px 30px;
+          align-items: center;
+          gap: 10px;
+          border-radius: 37px;
+          border: 1px solid var(--secondary-color-1, #0d5c63);
+          color: var(--secondary-color-1, #0d5c63);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px; /* 200% */
+          letter-spacing: 0.2px;
+          transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+        }
+        span {
+          color: #fff;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+        &:hover {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1); /* применяем тень при hover */
+        }
+      }
+    }
+  }
+  .weAreBlock {
+    width: 100%;
+    background: #fafafa;
+    padding-bottom: 120px;
+    margin-bottom: 60px;
+    .weAreWrap {
+      .titleBlock {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        h2 {
+          color: var(--text-color, #252b42);
+          text-align: center;
+
+          /* h2 */
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 57px; /* 142.5% */
+          letter-spacing: 0.2px;
+        }
+        span {
+          width: 400px;
+          color: var(--second-text-color, #737373);
+          text-align: center;
+
+          /* paragraph */
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+      }
+      .MostBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 70px;
+        img {
+          width: 500px;
+        }
+        .MostInfoBlock {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 30px;
+          h2 {
+            width: 300px;
+
+            color: var(--text-color, #252b42);
+
+            /* h2 */
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 57px; /* 142.5% */
+            letter-spacing: 0.2px;
+          }
+          p {
+            width: 300px;
+            color: var(--second-text-color, #737373);
+
+            /* paragraph */
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px; /* 142.857% */
+            letter-spacing: 0.2px;
+          }
+        }
+        .lazyBlock {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          .lazyPeople {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            img {
+              width: 30px;
+            }
+            .lazyPeopleInfo {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              gap: 5px;
+              h4 {
+                color: var(--text-color, #252b42);
+
+                /* h5 */
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px; /* 150% */
+                letter-spacing: 0.1px;
+              }
+              span {
+                color: var(--second-text-color, #737373);
+
+                /* h6 */
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px; /* 171.429% */
+                letter-spacing: 0.2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .clientSayBlockPar {
+    display: flex;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    background: #060707;
+    height: 888px;
+    .clientSayBlock {
+      .titleBlock {
+        display: flex;
+        width: 564px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        h2 {
+          color: var(--light-text-color, #fff);
+
+          /* h2 */
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 57px; /* 142.5% */
+          letter-spacing: 0.2px;
+        }
+
+        span {
+          color: var(--light-text-color, #fff);
+          text-align: center;
+
+          /* paragraph */
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+      }
+      .cards {
+        padding-top: 60px;
+        width: 950px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        .reginaMiles {
+          width: 450px;
+          height: 250px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          background: var(--light-background-color, #fff);
+
+          .titleBlock {
+            padding-top: 30px;
+            width: 300px;
+            text-align: start;
+            h3 {
+              color: var(--text-color, #252b42);
+
+              /* h3 */
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+              letter-spacing: 0.1px;
+            }
+
+            span {
+              color: var(--second-text-color, #737373);
+
+              /* h6 */
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px; /* 171.429% */
+              letter-spacing: 0.2px;
+            }
+          }
+
+          p {
+            margin: 0 auto;
+            width: 400px;
+            color: var(--second-text-color, #737373);
+
+            /* paragraph */
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+          }
+        }
+      }
+    }
+  }
+  .map {
+    padding-top: 60px;
+    height: 753px;
+    flex-shrink: 0;
+    background: var(--dark-background-color, #252b42);
+    .mapWrap {
+      display: flex;
+      padding: 50px 0px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      display: flex;
+      flex-direction: row;
+      width: 754px;
+      margin: 0 auto;
+      .titleBlock {
+        margin: 0 auto;
+        h2 {
+          width: 400px;
+
+          color: var(--light-text-color, #fff);
+
+          /* h2 */
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 57px; /* 142.5% */
+          letter-spacing: 0.2px;
+        }
+        p {
+          width: 400px;
+
+          color: var(--light-text-color, #fff);
+
+          /* paragraph */
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px; /* 142.857% */
+          letter-spacing: 0.2px;
+        }
+      }
+    }
+  }
+}
