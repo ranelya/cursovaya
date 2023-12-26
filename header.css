@@ -35,7 +35,8 @@ header {
 }
 
 .navWrap:hover{
-  color: rgb(199, 181, 181);
+  color: rgb(196, 181, 181);
+  transition: .5s;
 }
 
 .navWrap {
@@ -47,6 +48,9 @@ header {
    cursor: pointer;
 }
 
+.navWrap ul li:hover{
+  color: rgb(199, 199, 199);
+}
 
 
 h2,
@@ -133,6 +137,7 @@ ul li,
 }
 .firstWrap .firstButtons .button_one:hover {
   background: #c85528;
+  transition: .4s;
 }
 .firstWrap .firstButtons .button_two {
   width: 130px;
