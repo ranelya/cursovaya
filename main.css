@@ -27,6 +27,13 @@ main .cardsWrap:hover{
   color: #252b42;
 }
 
+.cards,
+.span_one{
+  color: #000000;
+}
+
+
+
 main .cardsWrap .cards .firstCard {
   display: flex;
   width: 230px;
@@ -53,7 +60,7 @@ main .cardsWrap .cards .firstCard button {
   font-weight: 400;
   line-height: 28px; /* 200% */
   letter-spacing: 0.2px;
-  transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+  transition: box-shadow 0.4s ease; /* добавляем анимацию для box-shadow */
 }
 main .cardsWrap .cards .firstCard .span_two {
   color: var(--second-text-color, #737373);
@@ -63,10 +70,21 @@ main .cardsWrap .cards .firstCard .span_two {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
 }
-main .cardsWrap .cards .firstCard:hover {
+main .cardsWrap .cards .firstCard:hover  {
   box-shadow: 0 4px 8px rgb(0, 0, 0); /* применяем тень при hover */
   background-color: #252b42;
 }
+
+main .cardsWrap .cards .firstCard:hover .span_one{
+  color: #fafafa;
+}
+
+
+main .cardsWrap .cards .firstCard:hover .span_two{
+  color: #fafafa;
+}
+
+
 main .cardsWrap .cards .secondCard {
   display: flex;
   width: 230px;
@@ -75,7 +93,7 @@ main .cardsWrap .cards .secondCard {
   align-items: flex-start;
   background: #fff;
   gap: 26px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 main .cardsWrap .cards .secondCard button {
   display: flex;
@@ -90,7 +108,7 @@ main .cardsWrap .cards .secondCard button {
   font-weight: 400;
   line-height: 28px; /* 200% */
   letter-spacing: 0.2px;
-  transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+  transition: box-shadow 0.4s ease; /* добавляем анимацию для box-shadow */
 }
 
 
@@ -102,10 +120,27 @@ main .cardsWrap .cards .secondCard .span_two {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
 }
+
+main .secongCard:hover {
+  filter: brightness(0) invert(1);
+} 
+
+.lastcard ,.btn:hover{
+  color: #000000;
+}
+
 main .cardsWrap .cards .secondCard:hover {
   box-shadow: 0 4px 8px rgb(0, 0, 0); /* применяем тень при hover */
   background-color: #252b42;
 }
+main .cardsWrap .cards .secondCard:hover .span_one {
+  color: white;
+}
+
+main .cardsWrap .cards .secondCard:hover .span_two {
+  color: white;
+}
+
 main .cardsWrap .cards .LastCard {
   display: flex;
   width: 230px;
@@ -114,7 +149,7 @@ main .cardsWrap .cards .LastCard {
   align-items: flex-start;
   background: var(--dark-background-color, #252b42);
   gap: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 main .cardsWrap .cards .LastCard button {
   display: flex;
@@ -351,9 +386,11 @@ main .map .mapWrap {
   flex-direction: row;
   width: 754px;
   margin: 0 auto;
+  padding-right: 1000px;
 }
 main .map .mapWrap .titleBlock {
   margin: 0 auto;
+  padding-right: 100px;
 }
 main .map .mapWrap .titleBlock h2 {
   width: 400px;
