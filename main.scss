@@ -22,6 +22,11 @@ main {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
+      .icon{
+        width: 48px;
+        height: 41px;
+        background: url(assets/box.svg);
+      }
       .firstCard {
         display: flex;
         width: 230px;
@@ -53,6 +58,7 @@ main {
           font-weight: 700;
           line-height: 20px; /* 142.857% */
           letter-spacing: 0.2px;
+          font-size: 50px;
         }
         &:hover {
           box-shadow: 0 4px 8px rgba(0, 0, 0, 1.1); /* применяем тень при hover */

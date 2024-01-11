@@ -11,18 +11,24 @@
   </head>
   <body>
     <header>
+      <div class="container">
+      <nav>
       <div class="headerWrapper">
         <h2>Aconsulting</h2>
         <div class="navWrap">
+          <div class="adaptive">
           <ul>
             <li>Home</li>
-            <li>Product</li>
+            <li>About</li>
             <li>Product</li>
             <li>Contact</li>
             <img src="./assets/searchicon.svg" alt="search" />
           </ul>
-          <img src="./assets/menuicon.svg" alt="menu" />
         </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </nav>
       </div>
       <div class="gradient"></div>
       <div class="firstWrap">
@@ -37,37 +43,52 @@
         </div>
       </div>
     </header>
-
+  </div>
     <main>
+      <div class="container">
       <div class="cardsWrap">
         <div class="cards">
-          <div class="firstCard">
-            <img src="./assets/box.png" alt="box" class="card" />
+          <div class="firstCard card">
+            <div class="icon"></div>
+            <!-- <img src="./assets/box.png" alt="box" class="card" /> -->
             <span class="span_one">Business & Finance </span>
             <span class="span_two">the quick fox jumps over the lazy dog</span>
-            <button class="card_btn"> More <img src="./assets/arrow.svg" alt="" /></button>
+            <button class="card_btn">
+              More <img src="./assets/arrow.svg" alt="" />
+            </button>
           </div>
-          <div class="firstCard">
-            <img src="./assets/building.png" alt="box" />
+          <div class="firstCard card">
+            <div class="icon icon_two"></div>
+            <!-- <img src="./assets/building.png" alt="box" /> -->
             <span class="span_one">Travel & Aviation </span>
             <span class="span_two">the quick fox jumps over the lazy dog</span>
-            <button class="card_btn">More <img src="./assets/arrow.svg" alt="" /></button>
+            <button class="card_btn">
+              More <img src="./assets/arrow.svg" alt="" />
+            </button>
           </div>
-          <div class="secondCard">
-            <img src="./assets/hz.png" alt="box" />
+          <div class="secondCard card">
+            <div class="icon_third"></div>
+            <!-- <img src="./assets/hz.png" alt="box" /> -->
             <span class="span_one">Financial Services </span>
             <span class="span_two">the quick fox jumps over the lazy dog</span>
-            <button class="card_btn" >More <img src="./assets/arrow.svg" alt="" /></button>
+            <button class="card_btn">
+              More <img src="./assets/arrow.svg" alt="" />
+            </button>
           </div>
           <div class="LastCard">
-            <img src="./assets/carbon.png" alt="box" />
+            <div class="last_icon"></div>
+            <!-- <img src="./assets/carbon.png" alt="box" /> -->
             <span class="span_one">Save money and time </span>
             <span class="span_two">the quick fox jumps over the lazy dog</span>
-            <button class="card_btn">More <img src="./assets/arrow.svg" alt="" /></button>
+            <button class="card_btn">
+              More <img src="./assets/arrow.svg" alt="" />
+            </button>
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container">
       <div class="weAreBlock">
         <div class="weAreWrap">
           <div class="titleBlock">
@@ -78,7 +99,9 @@
             </span>
           </div>
           <div class="MostBlock">
-            <img src="./assets/people.jpg" alt="" />
+            <div class="peopleCard">
+              <img src="./assets/people.jpg" alt="" />
+            </div>
             <div class="MostInfoBlock">
               <h2>Most trusted in our field</h2>
               <p>
@@ -105,9 +128,11 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container">
       <div class="clientSayBlockPar">
-        <div class="clientSayBlock">
+        <div class="clientSayBlock ">
           <div class="titleBlock">
             <h2>What Clients Say</h2>
             <span
@@ -116,7 +141,7 @@
             </span>
           </div>
           <div class="cards">
-            <div class="reginaMiles">
+            <div class="reginaMiles card_one">
               <div class="titleBlock">
                 <h3>Regina Miles</h3>
                 <span>Designer</span>
@@ -130,7 +155,7 @@
                 time first and then space.
               </p>
             </div>
-            <div class="reginaMiles">
+            <div class="reginaMiles card_two">
               <div class="titleBlock">
                 <h3>Regina Miles</h3>
                 <span>Designer</span>
@@ -147,7 +172,46 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <!-- <div class="slider">
+      <div id="carousel-container">
+        <div id="carousel-content">
+          <div class="card hidden">
+            <h3>Regina Miles</h3>
+            <span>Designer</span>
+            <p> This proved to be impossible using the traditional concepts of
+              space and time. Einstein developed a new view of time first and
+              then space. This proved to be impossible using the traditional
+              concepts of space and time. Einstein developed a new view of
+              time first and then space.</p>
+            <img src="study/assets/" alt="" />" alt="">
+          </div>
+          <div class="card hidden">
+            1
+          </div>
+          <div class="card hidden">
+            2
+          </div>
+          <div class="card hidden">
+            3
+          </div>
+          <div class="card hidden">
+            4
+          </div>
+          <div class="card hidden">
+            5
+          </div>
+        </div>
+        <div id="carousel-dots">
+  
+        </div>
+      </div>
+      <!-- p id="prev">Prev</p>
+      <p id="next">Next</p> -->
+    </div> -->
+
+    <div class="container">
       <div class="map">
         <div class="mapWrap">
           <div class="titleBlock">
@@ -163,40 +227,43 @@
           <img src="./assets/map.png" alt="map" />
         </div>
       </div>
+    </div>
     </main>
     <footer>
       <div class="container">
-      <div class="footerWrap">
-        <div class="getInTouch">
-          <a href=""><h3>Get In Touch</h3></a>
-          <span><a href="">the quick fox jumps over the lazy dog</a></span>
-          <div class="images">
-            <img src="assets/facebook.svg" alt="">
-            <img src="assets/inst_ic.svg" alt="">
-            <img src="assets/twitter_ic.svg" alt="">
-            <img src="assets/youtub_ic.svg" alt="">
+        <div class="footerWrap">
+          <div class="getInTouch">
+            <a href=""><h3>Get In Touch</h3></a>
+            <span><a href="">the quick fox jumps over the lazy dog</a></span>
+            <div class="images">
+              <img src="assets/facebook.svg" alt="" />
+              <img src="assets/inst_ic.svg" alt="" />
+              <img src="assets/twitter_ic.svg" alt="" />
+              <img src="assets/youtub_ic.svg" alt="" />
+            </div>
+          </div>
+          <div class="getInTouch">
+            <a href=""><h3>Get In Touch</h3></a>
+            <span><a href="">About Us</a></span>
+            <span> <a href="">Carrier</a> </span>
+            <span> <a href="">We are hiring</a></span>
+          </div>
+          <div class="getInTouch">
+            <a href=""><h3>Get In Touch</h3></a>
+            <span><a href="">Business Marketing</a></span>
+            <span><a href="">User Analytic</a></span>
+            <span><a href="">Live Chat</a></span>
+          </div>
+          <div class="getInTouch">
+            <a href=""><h3>Get In Touch</h3></a>
+            <span><a href="">IOS & Android</a></span>
+            <span><a href="">Watch a Demo</a></span>
+            <span><a href="">Customers</a></span>
           </div>
         </div>
-        <div class="getInTouch">
-          <a href=""><h3>Get In Touch</h3></a>
-          <span><a href="">About Us</a></span>
-          <span> <a href="">Carrier</a> </span>
-          <span> <a href="">We are hiring</a></span>
-        </div>
-        <div class="getInTouch">
-          <a href=""><h3>Get In Touch</h3></a>
-          <span><a href="">Business Marketing</a></span>
-          <span><a href="">User Analytic</a></span>
-          <span><a href="">Live Chat</a></span>
-        </div>
-        <div class="getInTouch">
-         <a href=""><h3>Get In Touch</h3></a> 
-          <span><a href="">IOS & Android</a></span>
-          <span><a href="">Watch a Demo</a></span>
-          <span><a href="">Customers</a></span>
-        </div>
       </div>
-    </div>
     </footer>
+  </div>
+    <script src="core.js"></script>
   </body>
 </html>

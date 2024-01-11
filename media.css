@@ -1,4 +1,4 @@
-@media(max-width:1200px){
+ @media(max-width:1200px){
   header{
     width: 1000px;
   }
@@ -13,5 +13,165 @@
 @media(max-width:1200px){
   footer{
     width: 1000px;
+  } 
+}
+
+/* @media screen and (max-width: 1200px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media screen and (max-width: 960px) {
+	.container{
+		max-width: 750px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+
+  @media screen and (max-width: 450px) {
+    .container{
+      max-width: 100%;}
+    }
+    
+ */
+
+	/* .burger{
+		display: block;
+		width: 33px;
+		height: 20px;
+		position: absolute;
+		right: 15px;
+		top: 25px;
+	}
+	.burger i{
+		position: absolute;
+		background: #000;
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 4px;
+		transition: 0.3s;
+	}
+	.burger i::before,
+	.burger i::after{
+		content: '';
+		position: absolute;
+		background: #000;
+		left: 0;
+		right: 0;
+		transition: 0.3s;
+		height: 4px;
+	}
+	.burger i::before{
+		top: 8px;
+	}
+	.burger i::after{
+		top: 16px;
+	}
+	header{
+		position: relative;
+		border-bottom: 0;
+	}
+	.burger.active i::after{
+		opacity: 0;
+		width: 0;
+	}
+	.burger.active i{
+		background: #828282;
+		transform: rotate(33deg) translate(5px, 6px);
+	}
+	.burger.active i::before{
+    transform: rotate(-64deg) translate(7px, -3px);
+		background: #828282;
+	}
+	.menu{
+		height: 0;
+		overflow: hidden;
+		transition: 0.3s;
+		opacity: 0;
+	}
+	.menu.active{
+		height: auto;
+		width: 375px;
+		background: #fff;
+		opacity: 1;
+	}
+	.menu ul{
+		flex-direction: column;
+		padding: 70px 25px 30px;
+	}
+	.menu li{
+		margin-bottom: 20px;
+	}
+	header{
+		min-height: 70px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+} */
+
+
+
+
+
+/* 
+/* header, section, footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Стили для устройств с шириной экрана более 768px (например, ноутбуки) */
+
+ /* @media only screen and (min-width: 1200px) {
+  header, section, footer,main {
+    width: 50%;
   }
 }
+
+/* Стили для устройств с шириной экрана более 480px (например, планшеты) */
+
+ /* @media only screen and (min-width: 990px) {
+  header, section, footer,main {
+    width: 60%;
+  }
+} */
+
+/* Стили для устройств с шириной экрана менее 480px (например, мобильные устройства) */
+ /* @media only screen and (max-width: 768px) {
+  header, section, footer,main {
+    width: 70%;
+  }
+
+  @media (max-width: 667px) and (orientation: landscape)  {
+  header, section, footer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 375px) {
+  header, section, footer,main {
+    width: 90%;
+  } */
+ 
+
+  /* img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}   */ 

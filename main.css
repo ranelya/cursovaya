@@ -13,6 +13,7 @@ main .cardsWrap {
   background: #fafafa;
   padding-bottom: 40px;
   margin-bottom: 60px;
+
 }
 main .cardsWrap .cards {
   padding-top: 50px;
@@ -45,6 +46,11 @@ main .cardsWrap .cards .firstCard {
   transition: all 0.2s ease-in-out;
 }
 
+main .cardsWrap .cards .firstCard {
+  background-repeat: no-repeat;
+  gap: 20px;
+  
+}
 
 
 main .cardsWrap .cards .firstCard button {
@@ -61,6 +67,7 @@ main .cardsWrap .cards .firstCard button {
   line-height: 28px; /* 200% */
   letter-spacing: 0.2px;
   transition: box-shadow 0.4s ease; /* добавляем анимацию для box-shadow */
+  cursor: pointer;
 }
 main .cardsWrap .cards .firstCard .span_two {
   color: var(--second-text-color, #737373);
@@ -69,10 +76,12 @@ main .cardsWrap .cards .firstCard .span_two {
   font-weight: 700;
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
+  transition: .4s;
 }
 main .cardsWrap .cards .firstCard:hover  {
   box-shadow: 0 4px 8px rgb(0, 0, 0); /* применяем тень при hover */
   background-color: #252b42;
+ 
 }
 
 main .cardsWrap .cards .firstCard:hover .span_one{
@@ -109,6 +118,7 @@ main .cardsWrap .cards .secondCard button {
   line-height: 28px; /* 200% */
   letter-spacing: 0.2px;
   transition: box-shadow 0.4s ease; /* добавляем анимацию для box-shadow */
+  cursor: pointer;
 }
 
 
@@ -119,6 +129,7 @@ main .cardsWrap .cards .secondCard .span_two {
   font-weight: 700;
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
+  transition: .4s;
 }
 
 main .secongCard:hover {
@@ -165,6 +176,7 @@ main .cardsWrap .cards .LastCard button {
   line-height: 28px; /* 200% */
   letter-spacing: 0.2px;
   transition: box-shadow 0.3s ease; /* добавляем анимацию для box-shadow */
+  cursor: pointer;
 }
 main .cardsWrap .cards .LastCard span {
   color: #fff;
@@ -221,6 +233,23 @@ main .weAreBlock .weAreWrap .MostBlock {
   margin: 0 auto;
   padding-top: 70px;
 }
+
+
+.peopleCard{
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0 ,0, 0, 0.25);
+  transition: 0.8s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.peopleCard:hover{
+  transform: scale(1.035, 1.035);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.peopleCard:hover img{
+  transform: translate(-10px);
+}
+
 main .weAreBlock .weAreWrap .MostBlock img {
   width: 500px;
 }
@@ -412,3 +441,75 @@ main .map .mapWrap .titleBlock p {
   line-height: 20px; /* 142.857% */
   letter-spacing: 0.2px;
 }/*# sourceMappingURL=main.css.map */
+
+.icon{
+  width: 48px;
+  height: 41px;
+  background: url(assets/box.svg) center no-repeat;
+  transition: .4s;
+}
+
+.cards:hover .icon{
+filter: brightness(0) invert(1);
+}
+
+.icon_two{
+  width: 48px;
+  height: 41px;
+  background: url(assets/building.png);
+  transition: .4s;
+}
+
+.cards:hover .icon_two{
+  filter: brightness(0) invert(1);
+}
+
+.icon_third{
+  width: 48px;
+  height: 41px;
+  background: url(assets/hz.png) no-repeat;
+  transition: .4s;
+}
+
+.cards:hover .icon_third{
+  filter: brightness(0) invert(1);
+}
+
+
+.last_icon{
+  width: 48px;
+  height: 41px;
+  background: url(assets/carbon.png) no-repeat;
+  transition: .4s;
+}
+
+.cards:hover .last_icon{
+  filter: brightness(0) invert(1);
+}
+
+.card{
+transition: transform 0.3s ease;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card_one{
+  transition: transform 0.3s ease;
+}
+
+.card_one:hover{
+  transform: translateY(-10px);
+}
+
+.card_two{
+  transition: transform 0.3s ease;
+}
+
+.card_two:hover{
+  transform: translateY(-10px);
+}
+
+
+ 
